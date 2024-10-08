@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color:#111111;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000;
+}
+.logo img {
+    max-height: 60px;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: inherit;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #ccc;
+}
+.Pesquisa input {
+    padding: 8px 15px;
+    border: 1px solid #444;
+    border-radius: 25px;
+    background-color: #111;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.Pesquisa input::placeholder {
+    color: #aaa;
+}
+.video-container {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+    font-family: 'Bell MT', Arial, sans-serif;
+}
+.content {
+    position: initial;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+}
+
+
+
+.p{
+    font-size: 1.2rem;
+    margin: 0 ;
+    font-family:'Bell MT', Arial, sans-serif;
+
+}
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-family:'Calibri', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 10px 0 0;
+    font-family:'Calibri', Arial, sans-serif;
+}
+.movimentos {
+    padding: 40px;
+    text-align: center;
+}
+
+.movimentos h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.movimento-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.movimento {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.movimento img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movimento h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.galeria {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.galeria-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.obra {
+    flex: 1 1 calc(50% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #111111;
+    margin: 0;
+}
+
+.obra img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.descricao {
+    padding: 15px;
+    text-align: center;
+}
+
+.descricao h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    font-size: 1em;
+    color:white;
+}
+
+@media (max-width: 768px) {
+    .obra {
+        flex: 1 1 100%;
+    }
+}
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ff7f50;
+    text-decoration: none;
+}
+
