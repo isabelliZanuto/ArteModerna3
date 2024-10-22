@@ -1,4 +1,3 @@
-/* Estilos gerais */
 * {
     margin: 0;
     padding: 0;
@@ -130,5 +129,8 @@ footer a {
     header{
         flex-direction: column;
     }
-   
+    .image-section{
+        flex-direction: column;
+    }
+
 }
