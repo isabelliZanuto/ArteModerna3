@@ -19,10 +19,10 @@ header {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    /position: fixed;/
+    /width: 100%;/
+    /top: 0;/
+    /z-index: 1000;/
 }
 
 header .logo img {
@@ -126,7 +126,7 @@ h2::after {
     text-align: justify;
     padding: 20px;
     box-shadow: 0 4px 20px rgba(255, 223, 223, 0.6);
-    width: 450px;
+    width: 350px;
 }
 
 .obra2{
@@ -136,7 +136,7 @@ h2::after {
     text-align: justify;
     padding: 20px;
     box-shadow: 0 4px 20px rgba(255, 223, 223, 0.6);
-    width: 450px;
+    width: 350px;
 }
 
 .obra3{
@@ -146,7 +146,7 @@ h2::after {
     text-align: justify;
     padding: 20px;
     box-shadow: 0 4px 20px rgba(255, 223, 223, 0.6);
-    width: 450px;
+    width: 350px;
 }
 
 .obra4{
@@ -156,7 +156,7 @@ h2::after {
     text-align: justify;
     padding: 20px;
     box-shadow: 0 4px 20px rgba(255, 223, 223, 0.6);
-    width: 450px;
+    width: 350px;
 }
 
 p {
@@ -214,5 +214,10 @@ footer {
     header{
         flex-direction: column;
     }
-   
+    .dupla{
+        flex-direction: column;
+    }
+    main h1{
+        font-size: 16px;
+    }
 }
