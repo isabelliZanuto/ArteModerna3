@@ -203,3 +203,10 @@ footer a {
     color: #ff7f50;
     text-decoration: none;
 }
+
+@media(max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+   
+}
