@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 * {
     margin: 0;
     padding: 0;
@@ -64,7 +64,7 @@ header {
 }
 
 
-/* Section da Imagem e Texto */
+
 .image-section {
     display: flex;
     justify-content: space-between;
@@ -111,8 +111,8 @@ header {
 
 /* Rodapé */
 footer {
-    background-color: #000; /* Alterado para preto */
-    color: #fff; /* Texto branco */
+    background-color: #000;
+    color: #fff;
     text-align: center;
     padding: 20px 0;
 }
@@ -124,4 +124,15 @@ footer p {
 footer a {
     color: #ff7f50;
     text-decoration: none;
+}
+
+@media(max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+
+    .image-section{
+        flex-direction: column;
+    }
+
 }
